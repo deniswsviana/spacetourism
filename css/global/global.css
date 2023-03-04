@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+/* margin 0 */
+body,
+ul,
+li,
+nav,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+/* list style */
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* body bg */
+#home {
+  background-image: url("../../img/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;    
+}

@@ -1,0 +1,39 @@
+/* Heading 1 - Bellefair Regular - 150px */
+.heading-1{
+    font: 400 9.375rem/1 "Bellefair", serif;
+}
+/* Heading 2 - Bellefair Regular - 100px */
+.heading-2{
+    font: 400 6.25rem/1 "Bellefair", serif;
+}
+/* Heading 3 - Bellefair Regular - 56px */
+.heading-3{
+    font: 400 3.5rem "Bellefair", serif;
+}
+/*Heading 4 - Bellefair Regular - 32px */
+.heading-4{
+    font: 400 2rem "Bellefair", serif;
+}
+/* Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space */
+.heading-5{
+    font: 400 1.75rem "Barlow Condensed", sans-serif;
+    letter-spacing: .295rem;
+}
+/* Subheading 1 - Bellefair Regular - 28px */
+.subheading-1{
+    font: 400 1.75rem "Bellefair", serif;
+}
+/* Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space */
+.subheading-2{
+    font: 400 .875rem/.1475rem "Barlow Condensed", sans-serif;
+    letter-spacing: 0.1475rem;
+}
+/* Nav Text - Barlow Condensed Regular - 16px - 2.7 Character Space */
+.nav-text{
+    font: 400 1rem "Barlow Condensed", sans-serif;
+    letter-spacing: .1688rem;
+}
+/* body text - Barlow Regular - 18px */
+.body-text{
+    font: 400 1.125rem "Barlow", sans-serif;
+}

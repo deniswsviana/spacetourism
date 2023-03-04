@@ -1,0 +1,10 @@
+/* global */
+@import "./css/global/global.css";
+@import "./css/global/header.css";
+
+/* utilities */
+@import "./css/utilities/colors.css";
+@import "./css/utilities/tipografy.css";
+
+/* components */
+@import "./css/components/hover.css";
