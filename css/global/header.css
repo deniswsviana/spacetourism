@@ -1,5 +1,6 @@
+/*  */
+
 .header {
-  display: flex;
   justify-content: space-between;
   padding: 64px 0px 0 55px;
   align-items: center;
@@ -7,8 +8,11 @@
 .header a {
   padding-right: 10px;
 }
+.header-menu-items a > [aria-hidden="true"]{
+  font-weight: 700;
+}
+
 .header-menu {
-  display: flex;
   align-items: center;
 }
 
@@ -38,6 +42,16 @@
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(2.5rem);
 }
+/* responsive */
+@media (max-width: 35em){
+  .header-menu-items{
+    position: fixed;
+    inset: 0 0 0 30%;
+    flex-direction: column;
+    background: steelblue;
+  }
+}
+
 @media (max-width: 1300px) {
   .header-menu::before {
     display: none;

@@ -17,13 +17,36 @@ h3 {
 ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
 /* body bg */
-#home {
+html {
   background-image: url("../../img/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;    
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media (max-width: 800px) {
+  html {
+    background-image: url("../../img/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+}
+@media (max-width: 611px) {
+  html {
+    background-image: url("../../img/home/background-home-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
 }
