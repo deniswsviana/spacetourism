@@ -12,6 +12,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  padding: 0;
 }
 /* list style */
 ul {
@@ -26,27 +27,29 @@ a {
   gap: 1rem;
 }
 
-/* body bg */
-html {
+/* body  */
+body{
+  overflow-x: hidden ;
+}
+#home {
   background-image: url("../../img/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
   height: 100vh;
 }
 @media (max-width: 800px) {
-  html {
+  #home {
     background-image: url("../../img/home/background-home-tablet.jpg");
     background-size: cover;
     background-position: center;
-    height: 100%;
   }
 }
 @media (max-width: 611px) {
-  html {
+  #home {
     background-image: url("../../img/home/background-home-mobile.jpg");
     background-size: cover;
     background-position: center;
-    height: 100%;
   }
 }

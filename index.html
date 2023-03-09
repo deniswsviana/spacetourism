@@ -8,16 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Bellefair:regular" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css">
+    <script src="./js/scriptnav.js" defer></script>
     <title>Space Tourism</title>
 </head>
 
 <body id="home">
-    <div class="body-bg">
         <header class="header flex">
             <a class="hover-logo" href=""><img src="./img/shared/logo.svg" alt="Logo Space tourism"></a>
+            <button class="mobile-nav-toggle" aria-controls="header-menu-items" aria-expanded="false"><span class="sr-only"></span></button>
             <nav class="header-menu nav-text color-p3" aria-label="Menu Principal">
-                    <ul class="header-menu-items flex">
-                        <li><a class="hover" href=""><span aria-hidden="true">00</span> Home</a></li>
+                    <ul id="header-menu-items" data-visible="false" class="header-menu-items flex">
+                        <li class="active"><a class="hover" href=""><span aria-hidden="true">00</span> Home</a></li>
                         <li><a class="hover" href=""><span aria-hidden="true">01</span> Destination</a></li>
                         <li><a class="hover" href=""><span aria-hidden="true">02</span> Crew</a></li>
                         <li><a class="hover" href=""><span aria-hidden="true">03</span> Technology</a></li>
@@ -34,7 +35,5 @@
                 <a class="heading-4 color-12" href="./">Explore</a>
             </div>
         </main>
-    </div>
 </body>
-
 </html>
